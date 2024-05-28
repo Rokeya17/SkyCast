@@ -15,11 +15,14 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+          title: Text('Weather app'),
+        ),
         body: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-          SvgPicture.asset(ImageAssets.weatherlogo),
-        ]));
+              SvgPicture.asset(ImageAssets.weatherlogo),
+            ]));
   }
 }
