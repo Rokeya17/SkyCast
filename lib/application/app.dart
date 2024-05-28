@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../ui/splash_screen.dart';
+import '../view/splash_screen.dart';
 
 class Weather extends StatelessWidget {
   const Weather({super.key});
