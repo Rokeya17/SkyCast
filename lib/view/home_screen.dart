@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  appBar: AppBar(
-    title: Text('Weather App'),
+    title: Text('Weather App..'),
     ),
     body: Center(
     child: WeatherContainer(),
