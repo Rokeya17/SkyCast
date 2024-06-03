@@ -70,44 +70,45 @@ class WeatherContainer extends StatelessWidget {
         ),
       ],
     ),
-      Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(
-            'Dhaka',
-            style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          SizedBox(height: 10),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                Icons.wb_sunny,
-                size: 32,
-                color: Colors.orange,
-              ),
-              SizedBox(width: 10),
-              Text(
-                '25°C',
-                style: TextStyle(
-                  fontSize: 32,
-                ),
-              ),
-            ],
-          ),
-          SizedBox(height: 10),
-          Text(
-            'Sunny',
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.grey[700],
-            ),
-          ),
-        ],
-      ),
+      // Column(
+      //   mainAxisSize: MainAxisSize.min,
+      //   children: [
+      //     Text(
+      //       'Dhaka',
+      //       style: TextStyle(
+      //         fontSize: 24,
+      //         fontWeight: FontWeight.bold,
+      //       ),
+      //     ),
+      //     SizedBox(height: 10),
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.center,
+      //       children: [
+      //         Icon(
+      //           Icons.wb_sunny,
+      //           size: 32,
+      //           color: Colors.orange,
+      //         ),
+      //         SizedBox(width: 10),
+      //         Text(
+      //           '25°C',
+      //           style: TextStyle(
+      //             fontSize: 32,
+      //           ),
+      //         ),
+      //       ],
+      //     ),
+      //     SizedBox(height: 10),
+      //     Text(
+      //       'Sunny',
+      //       style: TextStyle(
+      //         fontSize: 20,
+      //         color: Colors.grey[700],
+      //       ),
+      //     ),
+      //   ],
+      // ),
+
 
     );
   }
